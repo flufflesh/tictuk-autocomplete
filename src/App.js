@@ -8,7 +8,6 @@ function App() {
 
   useEffect(() => {
     axios.get("http://localhost:1234/countries").then((data) => {
-      console.log(data);
       setCountries(data.data);
     });
   }, []);

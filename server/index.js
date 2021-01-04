@@ -3,7 +3,9 @@ let server = express();
 let countries = require("./countries");
 let apicache = require("apicache-plus");
 let cors = require("cors");
+let helmet = require("helmet");
 
+server.use(helmet());
 server.use(cors());
 
 // Send the countries JSON and cache the response for the next 5 minutes.
