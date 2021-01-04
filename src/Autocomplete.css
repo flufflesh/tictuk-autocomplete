@@ -1,0 +1,12 @@
+.search {
+  width: 15rem;
+  margin: 0 auto;
+  text-align: right;
+  position: relative;
+  padding-top: 50px;
+}
+.search-box {
+  border-radius: 2px;
+  font-size: 1.75rem;
+  width: 100%;
+}
